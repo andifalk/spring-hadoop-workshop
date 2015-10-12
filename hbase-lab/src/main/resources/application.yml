@@ -1,0 +1,10 @@
+spring:
+  hadoop:
+    config:
+      fs:
+        defaultFS: hdfs://agile-dev.de:9000
+hbase:
+  zk:
+    host: agile-dev.de
+    port: 2181        
+

@@ -1,0 +1,19 @@
+spring:
+  main:
+    show_banner: false
+  hadoop:
+    fsUri: hdfs://agile-dev.de:9000
+
+hd:
+  fs: hdfs://agile-dev.de:9000
+  rm: agile-dev.de:8032
+  jh: agile-dev.de:10020
+
+wordcount:
+  input:
+    path: /user/gutenberg/input/word/
+  output:
+    path: /user/gutenberg/output/word/
+
+localSourceFile: data/nietzsche-chapter-1.txt    
+

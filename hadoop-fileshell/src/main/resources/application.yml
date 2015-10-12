@@ -1,0 +1,6 @@
+spring:
+  main:
+    show_banner: false
+  hadoop:
+    fsUri: hdfs://agile-dev.de:9000
+

@@ -1,0 +1,7 @@
+spring:
+  hadoop:
+    fsUri: hdfs://agile-dev.de:9000
+tweets:
+  fileName: data/tweets.dat
+  basePath: /demo/tweets
+
