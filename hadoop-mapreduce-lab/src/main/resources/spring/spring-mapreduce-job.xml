@@ -10,7 +10,7 @@
 	  yarn.resourcemanager.scheduler.address=agile-dev.de:8030
 	  mapreduce.framework.name=yarn
 	  mapreduce.jobhistory.address=agile-dev.de:10020
-	  mapred.remote.os=Linux
+	  mapreduce.app-submission.cross-platform=true
 	</hdp:configuration>
 	
 <hdp:job id="wordcountJob"
